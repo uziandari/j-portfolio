@@ -1,15 +1,16 @@
-<div id="main">
+<div class="gallery">
 
-  <section>
+  <h1>Some of What I&#39;ve Done</h1>
 
-    <h1>Gallery Goes Here.</h1>
+  <section class="photo-gallery">
         
-    <ul class="photo-gallery">
-      {% for image in page.images %}
-      <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+    <div>
+      {% for image in site.data.designs %}
+        <a href="#"><img src="{{ image.image-path }}" alt="{{ image.title }}"/></a>
       {% endfor %}
-    </ul>
+    </div>
 
   </section>
  
 </div>
+

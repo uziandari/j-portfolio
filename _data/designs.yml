@@ -1,23 +1,23 @@
-- image-path: PATH_TO_IMAGE
+- image-path: http://placehold.it/800x800
   title: IMAGE_TITLE
   description: IMAGE_DESCRIPTON
 
-- image-path: PATH_TO_IMAGE
+- image-path: http://placehold.it/800x800
   title: IMAGE_TITLE
   description: IMAGE_DESCRIPTON
 
-- image-path: PATH_TO_IMAGE
+- image-path: http://placehold.it/800x800
   title: IMAGE_TITLE
   description: IMAGE_DESCRIPTON
 
-- image-path: PATH_TO_IMAGE
+- image-path: http://placehold.it/800x800
   title: IMAGE_TITLE
   description: IMAGE_DESCRIPTON
 
-- image-path: PATH_TO_IMAGE
+- image-path: http://placehold.it/800x800
   title: IMAGE_TITLE
   description: IMAGE_DESCRIPTON
 
-- image-path: PATH_TO_IMAGE
+- image-path: http://placehold.it/640x480
   title: IMAGE_TITLE
   description: IMAGE_DESCRIPTON

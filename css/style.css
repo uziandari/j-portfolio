@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
 /*
 	Strata by HTML5 UP
@@ -10,7 +10,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background-color: #EEF0F2;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -28,7 +28,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Roboto Mono", monospace, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -139,7 +139,7 @@
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
-		font-family: "Courier New", monospace;
+		font-family: "Roboto Mono", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -147,7 +147,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Roboto Mono", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1262,3 +1262,50 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+/*Photo Gallery, Main Page*/
+
+.gallery {
+	margin-top: -5%;
+}
+
+.gallery h1 {
+	color: #2a2a29;
+	font-family: "Roboto Mono", monospace, sans-serif;
+}
+
+.photo-gallery {
+  overflow-x: hidden;
+}
+.photo-gallery div {
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+.photo-gallery a {
+  overflow-x: hidden;
+  background-color: transparent;
+  flex-grow: 1;
+  flex-basis: calc(100% * 0.25 - 20px);
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 5px;
+  line-height: 0;
+}
+.photo-gallery a img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .photo-gallery a {
+    flex-basis: calc(100% * 0.5 - 20px);
+    border-bottom: 0;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .photo-gallery a {
+    flex-basis: calc(100%);
+  }
+}
