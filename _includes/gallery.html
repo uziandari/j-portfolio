@@ -6,7 +6,7 @@
         
     <div>
       {% for image in site.data.designs %}
-        <a href="#"><img src="{{ image.image-path }}" alt="{{ image.title }}"/></a>
+        <a href="{{ site.base_url }}"><img src="{{ image.image-path }}" alt="{{ image.title }}"/></a>
       {% endfor %}
     </div>
 
